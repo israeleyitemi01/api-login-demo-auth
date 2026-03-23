@@ -1,3 +1,4 @@
+/*
 import { Navigate } from "react-router-dom";
  const isAuthenticated = () => {
     return localStorage.getItem("user");
@@ -8,3 +9,4 @@ import { Navigate } from "react-router-dom";
 };
 
 export default ProtectedRoute
+*/

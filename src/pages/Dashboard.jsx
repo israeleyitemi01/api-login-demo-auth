@@ -1,3 +1,4 @@
+/*
 import React, { useState, useEffect } from "react";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
@@ -30,17 +31,13 @@ function Dashboard() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex">
-      {/* Sidebar - Fixed on left */}
       <Sidebar />
 
       <div className="flex-1 ml-64 flex flex-col">
-        {/* Header - Fixed on top */}
         <Header user={user} />
 
-        {/* Main Content Area */}
         <main className="mt-16 p-8 flex-1">
           <div className="max-w-7xl mx-auto">
-            {/* Welcome Section */}
             <div className="mb-10">
               <h1 className="text-3xl font-black text-slate-800 tracking-tight">
                 Welcome back, {user?.firstName}! 👋
@@ -50,7 +47,6 @@ function Dashboard() {
               </p>
             </div>
 
-            {/* Stats Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
               <StatCard 
                 title="Total Balance" 
@@ -83,12 +79,10 @@ function Dashboard() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-              {/* Transactions Table - Spans 2 columns */}
               <div className="lg:col-span-2">
                 <RecentTransactions />
               </div>
 
-              {/* User Profile Card - Spans 1 column */}
               <div className="space-y-6">
                 <div className="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-xl shadow-slate-200/50">
                   <h3 className="text-xl font-bold text-slate-800 mb-6">Account Details</h3>
@@ -135,3 +129,4 @@ const DetailItem = ({ label, value, className = "" }) => (
 );
 
 export default Dashboard;
+*/
