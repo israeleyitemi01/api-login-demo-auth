@@ -38,6 +38,7 @@ import ProtectedRoute from './components/ProtectedRoutes2';
 import AdminPage from './pages/AdminPage';
 import StaffPage from './pages/StaffPage';
 import CustomerPage from './pages/CustomerPage';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <AuthProvider>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={
             <ProtectedRoute>
               <Dashboard />
